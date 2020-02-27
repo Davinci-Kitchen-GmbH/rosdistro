@@ -3681,15 +3681,15 @@ python-requests:
   osx:
     pip:
       packages: [requests]
-  ubuntu:
-    '*': [python-requests]
-    trusty_python3: [python3-requests]
-    utopic_python3: [python3-requests]
-    vivid_python3: [python3-requests]
-    wily_python3: [python3-requests]
-    xenial_python3: [python3-requests]
-    yakkety_python3: [python3-requests]
-    zesty_python3: [python3-requests]
+  ubuntu: [python-requests]
+python3-requests:
+  debian: [python3-requests]
+  fedora: [python3-requests]
+  gentoo: [dev-python/requests]
+  osx:
+    pip:
+      packages: [requests]
+  ubuntu: [python3-requests]
 python-requests-oauthlib:
   debian: [python-requests-oauthlib]
   fedora: [python-requests-oauthlib]
