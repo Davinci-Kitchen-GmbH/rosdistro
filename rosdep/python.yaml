@@ -3287,6 +3287,9 @@ python-pymodbus:
   debian: [python-pymodbus]
   fedora: [pymodbus]
   ubuntu: [python-pymodbus]
+python3-pymodbus:
+  debian: [python3-pymodbus]
+  ubuntu: [python3-pymodbus]
 python-pymongo:
   arch: [python2-pymongo]
   debian: [python-pymongo]
