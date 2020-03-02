@@ -2257,6 +2257,10 @@ python-lindypy-pip:
   ubuntu:
     pip:
       packages: [lindypy]
+python3-logstash:
+  ubuntu:
+    pip:
+      packages: [python-logstash]
 python-lttngust:
   debian:
     pip:
