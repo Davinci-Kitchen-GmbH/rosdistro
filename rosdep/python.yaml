@@ -2257,10 +2257,10 @@ python-lindypy-pip:
   ubuntu:
     pip:
       packages: [lindypy]
-python3-logstash:
+python3-logstash-async:
   ubuntu:
     pip:
-      packages: [python-logstash]
+      packages: [python-logstash-async]
 python-lttngust:
   debian:
     pip:
