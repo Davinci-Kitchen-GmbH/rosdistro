@@ -2103,6 +2103,8 @@ python-jinja2:
   fedora: [python-jinja2]
   gentoo: [=dev-python/jinja-2*]
   ubuntu: [python-jinja2]
+python3-jinja2:
+  ubuntu: [python3-jinja2]
 python-jira-pip:
   ubuntu:
     pip:
